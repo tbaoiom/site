@@ -21,6 +21,28 @@ const projects = [
     description: "A multimodal machine learning model designed to learn disentangled and interpretable representations on clinical and biomedical data. Used to classify disease subtypes specific to breast cancer.",
     repoLink: "https://github.com/taib9/disentangled-mml",
   },
+  {
+    name: "Calendar App",
+    description:
+      "A sleek calendar application to manage events and tasks efficiently. Also find upcoming games, movies, and events.",
+    repoLink: "https://github.com/tbaoiom/calendar-app",
+    liveLink: "https://calendar-app-delta-roan.vercel.app/",
+    imageSrc: "/images/calendar-app-screenshot.png",
+    techStack: [
+    "Next.js 15",
+    "React 19",
+    "TypeScript",
+    "Tailwind CSS",
+    "PostgreSQL",
+    "Prisma",
+    "NextAuth.js",
+    "TMDB API",
+    "RAWG API",
+    "Ticketmaster API",
+    "Lucide React",
+    "date-fns"
+  ]
+  },
   // more projects here as objects
 ];
 
