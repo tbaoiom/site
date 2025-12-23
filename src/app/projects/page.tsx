@@ -16,6 +16,11 @@ const projects = [
     imageSrc: "/images/trivia-rpg-screenshot.png",
     techStack: ["React", "TypeScript", "TailwindCSS", "Vercel"],
   },
+  {
+    name: "Disentangled Multimodal Model",
+    description: "A multimodal machine learning model designed to learn disentangled and interpretable representations on clinical and biomedical data. Used to classify disease subtypes specific to breast cancer.",
+    repoLink: "https://github.com/taib9/disentangled-mml",
+  },
   // more projects here as objects
 ];
 
