@@ -89,13 +89,6 @@ export default function Navbar() {
             `}
           >
             <a
-              href="/posts"
-              onClick={() => setDropdownOpen(false)}
-              className="block px-5 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
-            >
-              Posts
-            </a>
-            <a
               href="/projects"
               onClick={() => setDropdownOpen(false)}
               className="block px-5 py-2 text-gray-700 dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700 transition"
